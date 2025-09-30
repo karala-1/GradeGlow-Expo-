@@ -1,0 +1,130 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.container {
+    display: flex;
+    width: 900px;
+    height: 500px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.logo-side {
+    background-color: #ffffff;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo h1 {
+    font-size: 36px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.logo p {
+    font-size: 18px;
+    margin: 5px 0;
+    letter-spacing: 1px;
+}
+
+.form-side {
+    background-color: #84bd00;
+    width: 50%;
+    padding: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.checkbox-group input {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 9px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b98e0;
+}
+
+.imglogo1 {
+    width: 95%;
+    height: 95%;
+}
+
+.error-message {
+    background-color: #f8d7da; /* Color de fondo para mensajes de error */
+    color: #721c24; /* Color del texto */
+    border: 1px solid #f5c6cb; /* Borde del mensaje */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    margin: 20px 0; /* Espaciado externo superior e inferior */
+    font-size: 16px; /* Tamaño del texto */
+    font-family: Arial, sans-serif; /* Familia de fuente */
+}
+
+.error-message::before {
+    content: "⚠️ "; /* Icono de advertencia antes del mensaje */
+    font-size: 18px; /* Tamaño del icono */
+    vertical-align: middle; /* Alinear verticalmente el icono */
+}
+
+.error-message p {
+    margin: 0; /* Eliminar márgenes en el párrafo */
+}
